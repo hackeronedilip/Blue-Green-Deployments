@@ -9,15 +9,13 @@ spec:
   selector:
     matchLabels:
       app: java-web-app
-      version: v1
-      color: blue
+      version: blue
   template:
     metadata:
       name: javawebapppod
       labels:
         app: java-web-app
-        version: v1
-        color: blue
+        version: blue
     spec:
       containers:
         - name: javawebappcontainer
